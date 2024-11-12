@@ -51,8 +51,8 @@ button {
 #div_game {
     background-color: #ffffff;
     margin: auto;
-
-    width: 800px;
+    border-radius: 15px;
+    width: 80%;
     height: 800px;
 }
 
@@ -97,14 +97,21 @@ footer {
 
 footer p {
     text-align: center;
-
 }
 
 #div_information {
-    width: 500px;
+    flex-direction: column;
+    display: flex;
+    width: 50%;
+    height: 100%;
     margin: auto;
-    background-color: #85C1E9;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: #85C1E9; */
     font-size: 20px;
+}
+#div_information h2{
+text-align: center;
 }
 
 
