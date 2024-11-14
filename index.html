@@ -69,22 +69,22 @@
     var special_words = ['CPU', 'ULA', 'Registradores', 'RAM', 'ROM', 'EPROM', 'FLASH', 'Memória de Massa', 'DMA', 'CS', 'Adress Bus', 'Data Bus', 'I5', 'I7', 'Dual Core', 'Quad Core'];
 
 var questions_list = [
-    'Qual é a sigla para Central Process Unit?',
-    'Um circuto digital que realiza operações lógicas e aritméticas. Qual é o nome deste componente?',
-    'Tipo de memória que se encontra no topo da hierarquia de memória',
-    'Tipo de memória volátil que tem como nome Random Acess Memory. Qual é a sigla deste componente?',
-    'Tipo de memória não volátil que oferece dados apenas para leitura',
-    'Tipo de memória não volátil que precisa ter seu chip exposto a luz ultravioleta para apagar seu conteúdo',
-    'Tipo particular de EEPROM que mantém as informações armazenadas sem a necessidade de uma fonte de energia elétrica',
-    'Tipo de memória que precisa ter seu conteúdo copiado na RAM para poder ser executado pela CPU',
-    'Permite que periféricos acessem diretamente a RAM sem ocupar processamento',
-    'Também conhecido como Slave Select (SS). Usado para selecionar um ou um conjunto de circuitos que estão conectados no computador',
-    'Grupo de linhas ou trilhas usadas para se referir a um endereço físico na memória. O número de trilhas determina a quantidade de endereços na memória física',
-    'Também chamado de Memory Bus. É responsável para carregar os dados.',
-    'Modelo de processador desenvolvido pela Intel qu teve sua primeira versão lançada em setembro de 2009',
-    'Modelo de processador desenvolvido pela Intel qu teve sua primeira versão lançada em novembro de 2008',    
-    'Tipo de processador que possui dois processadores ou melhor dizendo ‘dois centros, núcleos ou cores de execução‘ no mesmo circuito integrado.  Cada core tem sua própria memória cash e controlador o que permite que funcione mais efetivamente do que um processador single',
-    'Segue o mesmo princípio de um dual-core, mas agora em teoria tem o dobro da capacidade de processamento'
+    'É um componente físico do processador que realiza calculos e processa instruções, ela é dividida em 3 partes, dentre elas estão a ULA, a UC e os registradores.',
+    'Componente responsável por implementar as operações lógicas e aritméticas, cujo  resultados são armazenados no acumulador.',
+    'Uma memória local rápida do microprocessador, destinada ao armazenamento de dados e instruções.',
+    'Mémoria temporária utilizada para armazenar dados de programas em execução enquanto o computador está ligado',
+    'Memória permanente responsável por guardar dados essenciais para funcionamento do sistema (ex: BIOS)',
+    'Tipo de memória não volátil que pode ser apagada e reprogramada.',
+    'Uma variação da memória anterior, ela também é uma memória não-volátil, só que mais rápida e mais eficiente para gravação e exclusão de dados. Ela pode ser do tipo NOR ou NAND',
+    'Memória utilizada para armazenar grandes quantidades de informações á longo prazo (ex:HD e SSD);',
+    'Recurso presente na MotherBoard responsável por capacitar os periféricos a terem um acesso direto a memoria RAM',
+    'É o nome de uma linha de controle capaz de selecionar um (ou um conjunto de) circuito(os) integrado de vários conectados a uma mesma arquitetura computacional. Ele é utilizado quando um engenheiro precisa conectar vários dispositivos ao mesmo conjuntos de fios de entrada.',
+    'Conhecido como “um GPS dentro do computador”, é um componente que especifica o endereço exato de onde os dados estão armazenados ou para onde precisam ser enviados.',
+    'Componente que permite a transferência de dados entre diferentes dispositivos, é a “estrada” pela qual os dados viajam dentro do computador.',
+    'Fabricado pela Intel em 2009, tem como principal caracteristica o fato de ser um bom processador custo beneficio que oferece um desempenho sólido em jogos e navegação Web',
+    'Lançado em 17 de Novembro de 2008 pela Intel, esse processador possui um alto nível com desempenho de CPU excelente para gráficos de nível dedicado e aceleração de IA.',    
+    'Processador que possui dois Núcleos, Exemplo:Pentium E6500K(R0) 2.93GHz',
+    'Processador que possui quatro nucleos, Exemplo: Processador Intel Core I3-12100F 3.3GHZ (Turbo 4.30GHZ) Cache 12mb 4 Nucleos 8 Threads 12ª Ger LGA'
 ];
 
 var filledCell = [2, 20, 38, 133, 134, 135, 59, 77, 95, 113, 131, 149,
